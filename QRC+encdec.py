@@ -53,7 +53,7 @@ def main():
 
                 # Filename
                 img_filename = 'QRC+_image_{}.png'.format(timestr)
-                path_for_images = os.path.join('QRC01/image_folder',img_filename)
+                path_for_images = os.path.join('github.com/aforres/QRC01/image_folder',img_filename)
                 img.save(path_for_images)
 
                 final_img = load_image(path_for_images)
