@@ -4,7 +4,7 @@ import numpy as np
 import os 
 import time 
 timestr = time.strftime("%Y%m%d-%H%M%S")
-import cv2
+#import cv2
 
 
 # For QR Code
